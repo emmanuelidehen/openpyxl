@@ -8,6 +8,21 @@ Created on Sun Aug 30 14:30:47 2020
 
 import pandas as pd
 import numpy as np
+#This is using rand to generate data set and using it as an example 
+from scipy import stats
+#big data distribution 
+
+x = np.random.uniform(8, 1000, 10000) #generate 10,000rand num btwn 8 and 1000 
+y = np.mean(x) #mean
+z = np.median(x) #median
+i = stats.mode(x) # scipy to call stats to get mode
+#print vars
+print(x)
+print(y)
+print(z)
+print(i)
+print("...........................")
+
 #We load and explore the data with the following commands:
     #place your file location here!
 x = '/Users/emmanuelidehen/OneDrive - Mississippi Valley State University/Python files/melb_data.csv'
@@ -28,12 +43,11 @@ y.describe()  #use the .describe to print out data
 #S - string
 #U - unicode string
 #V - fixed chunk of memory for other type ( void )
-
 array = np.array([[[0,1,2],[3,4,5]],[[6,7,8],[9,10,11]]])
 for x,y in array:
    print(x)
    print(y)
-   print(".............")
+   print("...........................")
 class addiction:
     
     x = array[0,0]
@@ -43,6 +57,7 @@ class addiction:
     
    # a = x[0] + x[1] + x[2]
     print(y)
-    print("....................")
+    print("..........................")
     sum = x + y
     print (sum)
+    
