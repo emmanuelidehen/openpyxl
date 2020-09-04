@@ -26,6 +26,9 @@ print("...........................")
 import matplotlib.pyplot as plt
 plt.hist(x,10000)
 plt.show()
+m = np.random.normal(8, 1000, 10000)
+plt.hist(m, 1000)
+plt.show()
 
 #We load and explore the data with the following commands:
     #place your file location here!
