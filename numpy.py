@@ -22,6 +22,10 @@ print(y)
 print(z)
 print(i)
 print("...........................")
+#plot x ina histogram 
+import matplotlib.pyplot as plt
+plt.hist(x,10000)
+plt.show()
 
 #We load and explore the data with the following commands:
     #place your file location here!
