@@ -12,7 +12,12 @@ x = np.array ([1,2,3,4,5])
 y = np.array ([6,7,8,9,10])
 
 plt.xlabel('population')
-plt.ylabel('temperature')
+plt.ylabel('temp')
+"""
+this is the only way to do multiple line 
+comment is python lol ..
+plt.Arrow(x, y)
+"""
 plt.title('population distribution')
 
 
